@@ -270,9 +270,9 @@ const Playground: React.FC = () => {
             </h1>
             <p>
               <Trans>
-                The playground was built using the {nounsProtocolLink}. Noun's traits are determined
-                by the Noun Seed. The seed was generated using {nounsAssetsLink} and rendered using
-                the {nounsSDKLink}.
+                The playground was built using the {nounsProtocolLink}. Nouns Embassy's traits are
+                determined by the Noun Seed. The seed was generated using {nounsAssetsLink} and
+                rendered using the {nounsSDKLink}.
               </Trans>
             </p>
           </Col>
