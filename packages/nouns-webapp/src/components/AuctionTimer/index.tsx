@@ -95,6 +95,16 @@ const AuctionTimer: React.FC<{
               color: isCool ? 'var(--brand-cool-dark-text)' : 'var(--brand-warm-dark-text)',
             }}
           >
+            {Math.floor(timerDuration.days()) > 0 ? (
+              <div className={classes.timerSection}>
+                <span>
+                  {`${Math.floor(timerDuration.days())}`}
+                  <span className={classes.small}>
+                    <Trans>d</Trans>
+                  </span>
+                </span>
+              </div>
+            ) : null}
             <div className={classes.timerSection}>
               <span>
                 {`${Math.floor(timerDuration.hours())}`}
