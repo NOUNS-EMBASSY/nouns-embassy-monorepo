@@ -50,7 +50,7 @@ const StandaloneNoun: React.FC<StandaloneNounProps> = (props: StandaloneNounProp
 
   return (
     <Link
-      to={'/noun/' + nounId.toString()}
+      to={'/embassy/' + nounId.toString()}
       className={classes.clickableNoun}
       onClick={onClickHandler}
     >
@@ -75,7 +75,7 @@ export const StandaloneNounCircular: React.FC<StandaloneCircularNounProps> = (
 
   return (
     <Link
-      to={'/noun/' + nounId.toString()}
+      to={'/embassy/' + nounId.toString()}
       className={classes.clickableNoun}
       onClick={onClickHandler}
     >
@@ -103,7 +103,7 @@ export const StandaloneNounRoundedCorners: React.FC<StandaloneNounProps> = (
 
   return (
     <Link
-      to={'/noun/' + nounId.toString()}
+      to={'/embassy/' + nounId.toString()}
       className={classes.clickableNoun}
       onClick={onClickHandler}
     >
@@ -138,7 +138,7 @@ export const StandaloneNounWithSeed: React.FC<StandaloneNounWithSeedProps> = (
   const noun = <Noun imgPath={image} alt={description} />;
   const nounWithLink = (
     <Link
-      to={'/noun/' + nounId.toString()}
+      to={'/embassy/' + nounId.toString()}
       className={classes.clickableNoun}
       onClick={onClickHandler}
     >
