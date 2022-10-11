@@ -281,7 +281,7 @@ export const useNounActivity = (nounId: number): NounProfileEventFetcherResponse
     .sort((a: NounProfileEvent, b: NounProfileEvent) => a.blockNumber - b.blockNumber)
     .reverse();
 
-  const postProcessedEvents = events.slice(0, events.length - (nounId % 10 === 0 ? 2 : 4));
+  const postProcessedEvents = events.slice(0, events.length - (nounId % 5 === 0 ? 2 : 4));
 
   // Wrap this line in a try-catch to prevent edge case
   // where excessive spamming to left / right keys can cause transfer
@@ -290,10 +290,10 @@ export const useNounActivity = (nounId: number): NounProfileEventFetcherResponse
     // Parse noun birth + win events into a single event
     const nounTransferFromAuctionHouse = nounTransferData.sort(
       (a: NounProfileEvent, b: NounProfileEvent) => a.blockNumber - b.blockNumber,
-    )[nounId % 10 === 0 ? 0 : 1].payload as TransferEvent;
+    )[nounId % 5 === 0 ? 0 : 1].payload as TransferEvent;
     const nounTransferFromAuctionHouseBlockNumber = nounTransferData.sort(
       (a: NounProfileEvent, b: NounProfileEvent) => a.blockNumber - b.blockNumber,
-    )[nounId % 10 === 0 ? 0 : 1].blockNumber;
+    )[nounId % 5 === 0 ? 0 : 1].blockNumber;
 
     const nounWinEvent = {
       nounId: nounId,

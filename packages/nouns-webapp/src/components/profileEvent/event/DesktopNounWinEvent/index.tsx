@@ -16,7 +16,7 @@ interface DesktopNounWinEventProps {
 const DesktopNounWinEvent: React.FC<DesktopNounWinEventProps> = props => {
   const { event } = props;
 
-  const isNounderNoun = parseInt(event.nounId as string) % 10 === 0;
+  const isNounderNoun = parseInt(event.nounId as string) % 5 === 0;
   return (
     <DesktopNounActivityRow
       icon={
