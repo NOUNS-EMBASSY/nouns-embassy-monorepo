@@ -102,7 +102,7 @@ const Documentation = () => {
                 <li>
                   <Trans>
                     Nouns Embassy founders group receive rewards in the form of Nouns Embassy NFT’s
-                    (10% of supply for first 5 years).
+                    (20% of supply for first 5 years).
                   </Trans>
                 </li>
               </ul>
