@@ -142,12 +142,12 @@ contract NounsToken is INounsToken, Ownable, ERC721Checkpointable {
 
     /**
      * @notice Mint a Noun to the minter, along with a possible nounders reward
-     * Noun. Nounders reward Nouns are minted every 10 Nouns, starting at 0,
-     * until 26 nounder Nouns have been minted (5 years w/ 7 days auctions).
+     * Noun. Nounders reward Nouns are minted every 5 Nouns, starting at 0,
+     * until 52 nounder Nouns have been minted (5 years w/ 7 days auctions).
      * @dev Call _mintTo with the to address(es).
      */
     function mint() public override onlyMinter returns (uint256) {
-        if (_currentNounId <= 260 && _currentNounId % 10 == 0) {
+        if (_currentNounId <= 260 && _currentNounId % 5 == 0) {
             _mintTo(noundersDAO, _currentNounId++);
         }
         return _mintTo(minter, _currentNounId++);
