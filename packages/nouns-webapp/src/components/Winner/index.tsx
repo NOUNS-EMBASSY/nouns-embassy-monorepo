@@ -72,7 +72,7 @@ const Winner: React.FC<WinnerProps> = props => {
         }}
         id="holder-etherscan-tooltip"
       >
-        nounders.eth
+        Embassy Founder
       </Tooltip>
     </a>
   );
