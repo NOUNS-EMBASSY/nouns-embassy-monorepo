@@ -42,7 +42,6 @@ const Documentation = () => {
                 <li>
                   <Trans>
                     Produce unique art and events,technically and logistically support proliferation
-                    .
                   </Trans>
                 </li>
               </ul>
