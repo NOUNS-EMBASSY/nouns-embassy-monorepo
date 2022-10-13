@@ -1,1 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?><svg id="Ebene_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 665.87 527.12"><defs><style>.cls-1{stroke:#63616e;stroke-miterlimit:10;stroke-width:.37px;}.cls-1,.cls-2,.cls-3,.cls-4,.cls-5{fill-rule:evenodd;}.cls-1,.cls-4{fill:#63616e;}.cls-2{fill:#fc628e;}.cls-3{fill:#fff;}</style></defs><g id="Ebene_1-2"><path class="cls-4" d="M471.64,83.21v27.77h0v-27.77Zm55.49,305.46l-166.47-.24v-83.26h-27.72v83.26H166.47v-83.26h-55.49v55.49h-27.72v-83.21h83.21v-55.49h166.47v55.49h27.72v-55.49h166.47v166.71h0ZM55.49,194.19V471.64H27.77v27.72H0v27.77H55.49v-27.77H610.38v27.77h55.49v-27.77h-27.77v-27.72h-27.72V194.19h27.72v-55.49h-55.49v-27.72h-55.49v-27.77h-55.49v-27.72h-55.49V27.72h-55.49V0h-55.49V27.72h-55.44v27.77h-55.49v27.72h-55.49v27.77h-55.49v27.72H27.77v55.49h27.72ZM194.24,110.98h0v0Z"/><path class="cls-2" d="M443.91,249.68h55.49v110.98h-110.98v-110.98h55.49Zm-194.19,0h55.44v110.98h-110.93v-110.98h55.49Zm-110.98,27.77h-55.49v83.21h27.72v-55.49h55.49v83.26h166.47v-83.26h27.72v83.26l166.47,.24V221.96h-166.47v55.49h-27.72v-55.49H166.47v55.49h-27.72Z"/><polygon class="cls-3" points="443.91 360.66 443.91 249.68 388.43 249.68 388.43 360.66 443.91 360.66"/><polygon class="cls-3" points="249.73 360.66 249.73 249.68 194.24 249.68 194.24 360.66 249.73 360.66"/><polygon class="cls-5" points="249.73 360.66 305.17 360.66 305.17 249.68 249.73 249.68 249.73 360.66"/><polygon class="cls-5" points="443.91 360.66 499.4 360.66 499.4 249.68 443.91 249.68 443.91 360.66"/><polygon class="cls-1" points="194.24 110.98 138.75 110.98 138.75 138.7 194.24 138.7 194.24 110.98 249.73 110.98 249.73 83.21 194.24 83.21 194.24 110.98"/><polygon class="cls-1" points="416.15 110.98 471.64 110.98 471.64 138.7 527.12 138.7 527.12 110.98 471.64 110.98 471.64 83.21 416.15 83.21 416.15 110.98"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 398 398" style="enable-background:new 0 0 398 398;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#63616E;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#FC628E;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#63616E;stroke:#63616E;stroke-width:0.21;stroke-miterlimit:10;}
+</style>
+<rect x="0.3" class="st0" width="398" height="398"/>
+<g id="Ebene_1-2">
+	<path class="st1" d="M277.8,91.4v15.7l0,0V91.4z M309.2,264.3l-94.3-0.1V217h-15.7v47.2H105V217H73.6v31.4H57.9v-47.1H105v-31.4
+		h94.3v31.4H215v-31.4h94.3L309.2,264.3L309.2,264.3L309.2,264.3z M42.2,154.2v157H26.6v15.7H10.8v15.7h31.4v-15.7h314.2v15.7h31.4
+		v-15.7h-15.7v-15.7h-15.7v-157h15.7v-31.4h-31.4v-15.7h-31.4V91.4h-31.4V75.7h-31.4V59.9H215V44.3h-31.4v15.7h-31.4v15.7h-31.4
+		v15.7H89.4v15.7H57.9v15.7H26.5v31.4L42.2,154.2L42.2,154.2z M120.8,107.1L120.8,107.1z"/>
+	<path class="st2" d="M262.1,185.6h31.4v62.8h-62.8v-62.8H262.1L262.1,185.6z M152.2,185.6h31.4v62.8h-62.8v-62.8H152.2z
+		 M89.3,201.3H57.9v47.1h15.7V217H105v47.2h94.3V217H215v47.2l94.3,0.1v-94.4H215v31.4h-15.7v-31.4H105v31.4L89.3,201.3L89.3,201.3z
+		"/>
+	<polygon class="st3" points="262.1,248.4 262.1,185.6 230.7,185.6 230.7,248.4 	"/>
+	<polygon class="st3" points="152.2,248.4 152.2,185.6 120.8,185.6 120.8,248.4 	"/>
+	<polygon class="st4" points="152.2,248.4 183.6,248.4 183.6,185.6 152.2,185.6 	"/>
+	<polygon class="st4" points="262.1,248.4 293.6,248.4 293.6,185.6 262.1,185.6 	"/>
+	<polygon class="st5" points="120.8,107.1 89.3,107.1 89.3,122.8 120.8,122.8 120.8,107.1 152.2,107.1 152.2,91.4 120.8,91.4 	"/>
+	<polygon class="st5" points="246.4,107.1 277.8,107.1 277.8,122.8 309.2,122.8 309.2,107.1 277.8,107.1 277.8,91.4 246.4,91.4 	"/>
+</g>
+</svg>
