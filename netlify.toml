@@ -20,3 +20,15 @@
 [build]
   command = "yarn workspace @nouns/webapp build"
   publish = "packages/nouns-webapp/build"
+
+[[redirects]]
+  from = "http://www.embassy.wtf/*"
+  to = "https://embassy.wtf/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://embassy.wtf/*"
+  to = "https://embassy.wtf/:splat"
+  status = 301
+  force = true
